@@ -7,7 +7,7 @@
         let costoCuotas = prompt("Ingrese el monto en cuotas");
         let tasaInteres = (costoCuotas/costoContado)*100;
         if (tasaInteres > 100){
-        alert(`Intento ${intento} La tasa que estas pagando es de: ${tasaInteres}%`);
+        alert(`Intento "${intento}" La tasa que estas pagando es de: ${tasaInteres}%`);
         }else{
         alert ("La tasa es inferior a 1, verifique los datos");
         }
