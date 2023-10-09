@@ -9,7 +9,7 @@
         if (tasaInteres > 100){
         alert(`Intento "${intento}" La tasa que estas pagando es de: ${tasaInteres}%`);
         }else{
-        alert ("La tasa es inferior a 1, verifique los datos");
+        alert (`Intento "${intento}" La tasa es inferior a 1, verifique los datos`);
         }
         }
     alert("Intentos terminados, favor de registrarte");
