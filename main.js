@@ -25,7 +25,7 @@ while(seleccion != "No"){
 
   if (producto == "Chomba Misericordia L" || producto == "Chomba Misericordia M" ||  producto == "Pantalon Misericordia M" ||  producto == "Pantalon Misericordia S"){
     switch(producto) {
-      case "Chomba Misericordia L":
+      case "Chomba Misericordia L" :
         precio = 160
         break;
       case "Chomba Misericordia M":
