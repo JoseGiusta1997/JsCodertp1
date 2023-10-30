@@ -20,7 +20,7 @@ if(seleccion == "Si"){
   alert("Lamentamos no poder ayudarte en este momento, te esperamos pronto")
 }
 while(seleccion != "No"){
-  let producto = prompt(`Agrega un producto a tu carrito \n "Chomba Misericordia L" , \n "Chomba Misericordia M", \n "Pantalon Misericordia M" , \n "Pantalon Misericordia S" `)
+  let producto = prompt(`Agrega un producto a su carrito ingresando los siguientes materiales \n "Chomba Misericordia L" , \n "Chomba Misericordia M", \n "Pantalon Misericordia M" , \n "Pantalon Misericordia S" `)
   let precio = 0
 
   if (producto == "Chomba Misericordia L" || producto == "Chomba Misericordia M" ||  producto == "Pantalon Misericordia M" ||  producto == "Pantalon Misericordia S"){
